@@ -18,7 +18,7 @@ function Cards() {
   {country: "Belgium", capital: "Brussels"},
   {country: "Belize", capital: "Belmopan"},
   {country: "Benin", capital: "Porto Novo, Cotonou"},
-  {country: "Bhutan", capital: ",Thimphu"},
+  {country: "Bhutan", capital: "Thimphu"},
   {country: "Bolivia", capital: "La Paz and Sucre"},
   {country: "Bosnia and Herzegovina", capital: "Sarajevo"},
   {country: "Botswana", capital: "Gaborone"},
