@@ -6,6 +6,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: auto;
+  border-radius: 30px;
   min-height: 600px;
   background-color: rgba(255,255,255,0.8);
   /*border: 1px solid black;*/
@@ -13,20 +14,25 @@ body {
 }
 
 .header {
-  font-size: 36px;
+  text-shadow: 3px 3px 3px rgb(174, 181, 200);
+  font-size: 44px;
   font-weight: bold;
   letter-spacing: 2px;
-  /*border-bottom: 1px solid gray;*/
   text-align: center;
   min-height: 65px;
+  border-left: 2px solid gray;
+  border-bottom: 4px solid gray;
+  border-right: 2px solid gray;
 }
 
 .gameboard {
-  border: 1px solid black;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
   min-height: 550px;
 }
 
 .scoreboard {
+  text-shadow: 3px 3px 3px rgb(174, 181, 200);
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -34,7 +40,8 @@ body {
 }
 
 .score1 {
-  font-size: 28px;
+  text-shadow: 3px 3px 3px rgb(174, 181, 200);
+  font-size: 32px;
   font-weight: 200;
   color: gray;
   letter-spacing: 4px;
@@ -42,7 +49,8 @@ body {
 }
 
 .score2 {
-  font-size: 28px;
+  text-shadow: 3px 3px 3px rgb(174, 181, 200);
+  font-size: 32px;
   font-weight: 200;
   color: gray;
   letter-spacing: 4px;
@@ -50,6 +58,7 @@ body {
 }
 
 .correctboard {
+  text-shadow: 3px 3px 3px rgb(174, 181, 200);
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -57,6 +66,7 @@ body {
 }
 
 .correct1 {
+  text-shadow: 3px 3px 3px rgb(174, 181, 200);
   font-size: 28px;
   font-weight: 200;
   color: gray;
@@ -65,6 +75,7 @@ body {
 }
 
 .correct2 {
+  text-shadow: 3px 3px 3px rgb(174, 181, 200);
   font-size: 28px;
   font-weight: 200;
   color: gray;
@@ -73,30 +84,37 @@ body {
 }
 
 .timerboard {
+  text-shadow: 3px 3px 3px rgb(174, 181, 200);
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 2px;
   border-bottom: 1px solid gray;
 }
 
-.playertitle {
+.playertitle1 {
+  text-shadow: 3px 3px 3px rgb(174, 181, 200);
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 2px;
   border-bottom: 1px solid gray;
+}
+
+.playertitle2 {
+  text-shadow: 3px 3px 3px rgb(174, 181, 200);
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-bottom: 1px solid gray;
+  text-align: right;
 }
 
 .timer {
-  font-size: 28px;
-  font-weight: 200;
+  text-shadow: 3px 3px 3px rgb(174, 181, 200);
+  font-size: 40px;
+  font-weight: 400;
   color: gray;
   letter-spacing: 4px;
-    text-align: right;
-}
-
-.img_hint {
-  max-height: 60px;
-  border-bottom: 1px solid gray;
+  text-align: right;
 }
 
 .popup {
