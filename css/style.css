@@ -1,0 +1,82 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: auto;
+  min-height: 600px;
+  background-color: rgba(255,255,255,0.8);
+  /*border: 1px solid black;*/
+  margin-top: 50px;
+}
+
+.header {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  /*border-bottom: 1px solid gray;*/
+  text-align: center;
+  min-height: 65px;
+}
+
+.gameboard {
+  border: 1px solid black;
+  min-height: 450px;
+}
+
+.scoreboard {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-bottom: 1px solid gray;
+}
+
+.score {
+  font-size: 28px;
+  font-weight: 200;
+  color: gray;
+  letter-spacing: 4px;
+}
+
+.timerboard {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-bottom: 1px solid gray;
+}
+
+.playertitle {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-bottom: 1px solid gray;
+}
+
+.timer {
+  font-size: 28px;
+  font-weight: 200;
+  color: gray;
+  letter-spacing: 4px;
+}
+
+.img_hint {
+  max-height: 60px;
+  border-bottom: 1px solid gray;
+}
+
+.popup {
+  font-size: 24px;
+  font-weight: 200;
+  color: black;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  font-size: 20px !important;
+}
