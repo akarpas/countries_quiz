@@ -23,7 +23,7 @@ body {
 
 .gameboard {
   border: 1px solid black;
-  min-height: 450px;
+  min-height: 550px;
 }
 
 .scoreboard {
@@ -33,7 +33,14 @@ body {
   border-bottom: 1px solid gray;
 }
 
-.score {
+.score1 {
+  font-size: 28px;
+  font-weight: 200;
+  color: gray;
+  letter-spacing: 4px;
+}
+
+.score2 {
   font-size: 28px;
   font-weight: 200;
   color: gray;
@@ -67,6 +74,7 @@ body {
 }
 
 .popup {
+  padding-top: 5px;
   font-size: 24px;
   font-weight: 200;
   color: black;
@@ -79,4 +87,23 @@ body {
   width: 100px;
   height: 40px;
   font-size: 20px !important;
+}
+
+#btn-answers1 {
+  width: 250px !important;
+}
+#btn-answers2 {
+  width: 250px !important;
+}
+#btn-answers3 {
+  width: 250px !important;
+}
+
+
+.redcolor {
+  color: red !important;
+}
+
+.largefont {
+  font-size: 60px;
 }
